@@ -1,3 +1,5 @@
+hi
+
 # 🎓 College Scout
 ### Build your own AI agent that finds your best-fit colleges, trade schools, or whatever comes next after high school.
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>College Scout — Quick Profile</title></head>
+<body>
+
+<!--
+COLLEGE SCOUT QUICK INTAKE — 8 questions, all text input
+Reference file only. The agent outputs this from the system prompt directly.
+No need to upload to Project Knowledge.
+-->
+
+<h2 class="sr-only">College Scout quick profile</h2>
+
+<style>
+.qt{font-size:20px;font-weight:500;color:var(--color-text-primary);margin:0 0 6px 0;line-height:1.4;}
+.qh{font-size:13px;color:var(--color-text-secondary);margin:0 0 1rem 0;}
+.fi{animation:f 0.2s ease;}
+@keyframes f{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+</style>
+
+<div id="qc" style="padding:1rem 0;max-width:560px;"></div>
+
+<script>
+const qs=[
+  ["name","What's your first name?","","Your first name"],
+  ["school","What high school do you go to, and what state?","","e.g. Stamford High School, Connecticut"],
+  ["gpa","What's your GPA?","Approximate is fine — skip if you don't know.","e.g. 3.6, or no idea"],
+  ["location","Where do you want to go to college?","City, state, region, or close to home vs. far away.","e.g. NYC, West Coast, close to home, no preference"],
+  ["budget","What's your family's financial situation for college?","e.g. Can pay full price / Need some help / Need significant aid / Need full ride","Type your answer"],
+  ["track","What area are you most interested in?","e.g. STEM, Business, Arts, Health, Trades, Humanities, No idea yet","Type your answer"],
+  ["activities","Any extracurricular activities?","Sports, clubs, music, theater, volunteering — whatever you do.","e.g. Varsity soccer, robotics club — or none"],
+  ["projects","Any projects or things you've built?","Apps, businesses, research, content, art — anything you've created.","e.g. Built an app, run an Etsy shop — or none"]
+];
+
+const labels={
+  name:"Name",school:"High school and state",gpa:"GPA",
+  location:"Location preference",budget:"Financial situation",
+  track:"Interest area",activities:"Extracurricular activities",
+  projects:"Projects and things built"
+};
+
+const ans={};
+let cur=0;
+
+function pct(){return Math.round(((cur+1)/qs.length)*100);}
+
+function prof(){
+  let p="STUDENT PROFILE — College Scout Intake\n\n";
+  for(const[id,label] of Object.entries(labels)){
+    const v=ans[id];
+    if(v&&v.trim()) p+=label+": "+v.trim()+"\n";
+  }
+  return p;
+}
+
+function render(){
+  const q=qs[cur];
+  const id=q[0],qtext=q[1],hint=q[2],ph=q[3];
+  const isLast=cur===qs.length-1;
+  const saved=ans[id]||"";
+
+  const inp="<input id='ai' type='text' value='"+saved.replace(/'/g,"&#39;")+"' placeholder='"+ph+"' style='width:100%;box-sizing:border-box;' onkeydown='if(event.key===\"Enter\")"+(isLast?"{done()}":"{nxt()}")+"' />";
+
+  document.getElementById("qc").innerHTML=
+    "<div class='fi'>"+
+    "<div style='height:4px;background:var(--color-border-tertiary);border-radius:2px;margin-bottom:1.5rem;'>"+
+      "<div style='height:100%;width:"+pct()+"%;background:#7F77DD;border-radius:2px;transition:width 0.3s;'></div>"+
+    "</div>"+
+    "<p style='font-size:12px;color:var(--color-text-tertiary);margin:0 0 0.5rem 0;'>"+(cur+1)+" of "+qs.length+"</p>"+
+    "<p class='qt'>"+qtext+"</p>"+
+    (hint?"<p class='qh'>"+hint+"</p>":"")+
+    "<div style='margin-bottom:1.5rem;'>"+inp+"</div>"+
+    "<div style='display:flex;justify-content:space-between;align-items:center;'>"+
+      "<div style='display:flex;gap:8px;'>"+
+        (cur>0?"<button onclick='back()' style='font-size:14px;color:var(--color-text-secondary);'>Back</button>":"<span></span>")+
+        "<button onclick='skip()' style='font-size:14px;color:var(--color-text-tertiary);'>Skip</button>"+
+      "</div>"+
+      (isLast
+        ?"<button onclick='done()' style='padding:10px 24px;font-size:14px;font-weight:500;background:#7F77DD;color:#EEEDFE;border:none;border-radius:var(--border-radius-md);cursor:pointer;'>Find my matches ↗</button>"
+        :"<button onclick='nxt()' style='padding:10px 24px;font-size:14px;font-weight:500;background:#7F77DD;color:#EEEDFE;border:none;border-radius:var(--border-radius-md);cursor:pointer;'>Next</button>")+
+    "</div></div>";
+
+  const el=document.getElementById("ai");
+  if(el) setTimeout(()=>el.focus(), 40);
+}
+
+function save(){const el=document.getElementById("ai");if(el&&el.value.trim())ans[qs[cur][0]]=el.value.trim();}
+function nxt(){save();if(cur<qs.length-1){cur++;render();}}
+function back(){save();if(cur>0){cur--;render();}}
+function skip(){if(cur<qs.length-1){cur++;render();}else done();}
+function done(){save();sendPrompt("PROFILE_READY\n\n"+prof());}
+
+render();
+</script>
+
+</body>
+</html>
