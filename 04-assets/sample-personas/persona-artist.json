@@ -1,0 +1,110 @@
+{
+  "persona_name": "The Artist",
+  "first_name": "Maya",
+  "last_name": "Rodriguez",
+  "high_school": "Westhill High School",
+  "grade": 11,
+  "gpa": "3.8 weighted, 3.6 unweighted",
+  "test_scores": {
+    "SAT_total": null,
+    "PSAT": 1310,
+    "ACT": null,
+    "AP_scores": ["AP Art History: 4", "AP Spanish Language: 5"]
+  },
+  "citizenship": "US citizen",
+  "state": "Connecticut",
+
+  "academics": {
+    "current_courses": ["AP English Language", "AP Studio Art (Drawing)", "Honors Pre-Calc", "Spanish IV", "Psychology", "Photography II"],
+    "subjects_i_like": ["English", "Art", "Spanish"],
+    "subjects_i_dislike": ["Pre-Calc", "Chemistry", "anything where there's only one right answer"],
+    "rigor_self_rating": "Pretty intense — 2 APs and multiple honors",
+    "above_and_beyond": "Won the school's juried art show two years in a row. Got a piece selected for the CT Scholastic Art Awards regional showcase. Currently building a portfolio for college applications.",
+    "approach_to_school": "I care more about my art than my grades, but I keep grades up so my parents don't lose it."
+  },
+
+  "activities": {
+    "sports": null,
+    "performing_arts": {
+      "type": "Theater",
+      "groups": "Westhill Drama Club",
+      "hours_per_week": 8,
+      "performances": "Played Beatrice in Much Ado About Nothing junior year (lead role). Stage managed the fall play sophomore year.",
+      "proud_of": "I directed a one-act play I wrote myself for the spring showcase",
+      "pursue_in_college": "Maybe minor in theater, not major"
+    },
+    "visual_arts": {
+      "medium": "Drawing (charcoal + ink), photography, some digital illustration",
+      "portfolio_pieces": "10-piece concentration on identity and bilingual childhood for AP Studio Art. Photography series on women in my family.",
+      "shows_publications": "School juried show (won 2 years), CT Scholastic Art Awards regional showcase (Silver Key, 2024)",
+      "pursue_in_college": "Yes — looking at BFA or BA + studio minor"
+    },
+    "things_built": [
+      "Self-published a zine about being a first-gen Latina at a mostly-white high school — sold 80 copies at school for $5 each, donated proceeds to a local literacy nonprofit",
+      "Run an Instagram art account (@maya.draws.something) with 1,800 followers — I post weekly and have done 3 commission cycles",
+      "Co-designed the visuals for our school's mental health awareness week last year"
+    ],
+    "clubs_leadership": [
+      "Drama Club — member 4 years, Costume Designer junior year",
+      "Latinx Student Union — VP",
+      "Literary Magazine — co-editor"
+    ],
+    "work": [
+      "Babysitting (3 families, regular)",
+      "Sold art commissions online — about $600 last year"
+    ],
+    "community_service": "Volunteer at Domus art programming for kids — Wednesdays after school, 2 years."
+  },
+
+  "identity": {
+    "first_gen_college": "Yes — my parents immigrated from the Dominican Republic. Neither has a 4-year degree.",
+    "race_ethnicity": "Hispanic / Latina (Dominican)",
+    "lgbtq": "Yes",
+    "religious": "Raised Catholic, not really practicing now",
+    "military_family": "No",
+    "geographic": "Urban-suburban (Stamford, CT)",
+    "languages": ["English (primary)", "Spanish (fluent at home)"],
+    "disability": null,
+    "other_background": "First-gen Latina, queer, daughter of immigrants. These all show up in my art."
+  },
+
+  "financial_reality": {
+    "family_situation": "Need significant financial aid. Probably need full ride or close at private schools. State schools are doable with grants.",
+    "fafsa_eligible": "Yes",
+    "comfortable_with_loans": "A small amount only",
+    "working_during_college": "Yes",
+    "max_out_of_pocket_per_year": "$8,000"
+  },
+
+  "what_i_want": {
+    "dream_vibe": "Somewhere I can be queer and Latina and an artist without anyone making it weird. NYC energy or college-town with culture.",
+    "city_vs_campus": "City or town with a real art scene",
+    "distance_from_home": "Road trip distance, but I'd consider further if it's the right school",
+    "size_preference": "Small (under 2K) or medium (2K-10K) — I want professors who know my name",
+    "greek_life": "Hard no",
+    "sports_culture": "I want low-key — not a sports school",
+    "religious_affiliation": "Doesn't matter, but not strictly religious",
+    "diversity": "A lot — I'm done with being one of three Latina girls in my AP classes",
+    "weather": "Actual winter is fine, mild is better",
+    "instant_no": "Conservative campus or no Latine student community",
+    "instant_yes": "Strong art program + queer-friendly + visible Latine community + financial aid"
+  },
+
+  "pathway": "4-year college (traditional)",
+
+  "career_direction": {
+    "today_pick": "Some combination of art, writing, and storytelling — illustrator, graphic designer, or maybe art therapist",
+    "interesting_careers": ["Illustrator (editorial or book)", "Art director", "Art therapist"],
+    "miserable_in_job": "Pure corporate environment where my work has to be safe and on-brand for someone else",
+    "top_2_from_work": ["Be creative", "Do meaningful work"],
+    "majors_considering": ["Studio Art (BFA)", "Illustration", "English", "Art Therapy (undergrad path)"],
+    "industries": "Publishing, art, design, mental health"
+  },
+
+  "real_talk": {
+    "schools_should_know": "I made my zine, my Instagram, and my art commissions while taking 2 APs and being VP of two clubs. I do the work.",
+    "worry": "Going to a school where I have to be the only Latina queer artist in the room again. And debt — I really can't take on a lot.",
+    "success_in_4_years": "Graduating from a school I felt seen at, with a portfolio I'm proud of, working in publishing or design or going to grad school for art therapy.",
+    "anything_else": "Don't just send me art school options. Some BFAs are great but liberal arts colleges with strong art programs might be better for me. Surprise me."
+  }
+}

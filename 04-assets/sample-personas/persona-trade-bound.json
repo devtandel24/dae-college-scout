@@ -1,0 +1,109 @@
+{
+  "persona_name": "The Trade-Bound",
+  "first_name": "Carlos",
+  "last_name": "Mendez",
+  "high_school": "J.M. Wright Technical High School",
+  "grade": 12,
+  "gpa": "3.0 unweighted",
+  "test_scores": {
+    "SAT_total": null,
+    "ACT": null,
+    "PSAT": null,
+    "AP_scores": [],
+    "trade_certifications": ["OSHA-10 certified", "Working toward NCCER Core Construction credential"]
+  },
+  "citizenship": "US citizen",
+  "state": "Connecticut",
+
+  "academics": {
+    "current_courses": ["Senior English", "Algebra II", "Environmental Science", "US Government", "Electrical Trade IV (shop)"],
+    "subjects_i_like": ["Electrical shop", "Government class (current events stuff)", "Anything hands-on"],
+    "subjects_i_dislike": ["English essays", "Higher math (when am I going to use this?)", "Honestly most academic classes"],
+    "rigor_self_rating": "Lightweight on academic side, intense on shop side",
+    "above_and_beyond": "I'm at a tech school — half my day is shop. I've been doing electrical trade work for 4 years now. I've already done real wiring jobs as part of school co-op program.",
+    "approach_to_school": "Academic classes are something to get through. The trade work is where I come alive."
+  },
+
+  "activities": {
+    "sports": {
+      "sport": "Soccer (rec league outside school)",
+      "level": "Recreational",
+      "years_played": 8,
+      "leadership": null,
+      "hours_per_week": 4,
+      "achievements": null,
+      "play_in_college": "No",
+      "recruiting_contact": null
+    },
+    "performing_arts": null,
+    "visual_arts": null,
+    "things_built": [
+      "Wired the entire basement renovation at my uncle's house — passed inspection on the first try",
+      "Built a custom workbench with integrated lighting for my dad's garage from scratch",
+      "Helped install solar panels on my aunt's roof through a paid summer gig with a local solar company",
+      "I rebuild and resell small motors — lawn mowers, weed whackers — on Facebook Marketplace. Made about $1,800 last year."
+    ],
+    "clubs_leadership": [
+      "SkillsUSA — competed regionally in Electrical Construction Wiring, placed 4th junior year",
+      "Tech school's electrical trade student leadership group — co-leader"
+    ],
+    "work": [
+      "Summer gig with a local electrical contractor (Stamford-based) — paid, 35 hours/week for two summers. They've already said they'll hire me full-time after graduation.",
+      "Solar panel installation crew (one summer)",
+      "Small motor rebuild side hustle"
+    ],
+    "community_service": "Through school's co-op program, helped wire a Habitat for Humanity build. About 60 hours over the summer."
+  },
+
+  "identity": {
+    "first_gen_college": "If I went to college, yes — my parents didn't finish high school in Mexico",
+    "race_ethnicity": "Hispanic / Latino (Mexican American)",
+    "lgbtq": "No",
+    "religious": "Catholic (my family is, I'm chill about it)",
+    "military_family": "No",
+    "geographic": "Urban (Stamford, CT)",
+    "languages": ["Spanish (primary at home)", "English (fluent)"],
+    "disability": null,
+    "other_background": "First-gen in the US. My parents work hard and they want me to do well. They're proud I'm at a tech school but they also wonder if I should go to college."
+  },
+
+  "financial_reality": {
+    "family_situation": "We need significant financial aid for anything beyond high school. My parents can't really help with tuition.",
+    "fafsa_eligible": "Yes",
+    "comfortable_with_loans": "No way — I refuse to go into debt for school",
+    "working_during_college": "If I go any kind of college, I'd need to work. But I'm leaning toward going straight into the trade.",
+    "max_out_of_pocket_per_year": "Very little — under $5,000"
+  },
+
+  "what_i_want": {
+    "dream_vibe": "Honestly, I want to work. I'm tired of school. I want to make money and build my career as an electrician.",
+    "city_vs_campus": "N/A — I'm not really thinking campus",
+    "distance_from_home": "I want to stay close — my family is here, and the contractor that wants to hire me is here",
+    "size_preference": "N/A",
+    "greek_life": "N/A",
+    "sports_culture": "N/A",
+    "religious_affiliation": "Doesn't matter",
+    "diversity": "I'd want to work with people who treat me with respect, regardless of background",
+    "weather": "N/A",
+    "instant_no": "A path that takes 4 years and puts me in debt before I'm even working",
+    "instant_yes": "Earning real money within a year while learning a skill that's mine forever"
+  },
+
+  "pathway": "Apprenticeship (paid training program) — leaning toward IBEW electrical apprenticeship. Open to community college path if it gets me to journeyman faster.",
+
+  "career_direction": {
+    "today_pick": "Licensed electrician. Eventually I want to run my own electrical contracting business.",
+    "interesting_careers": ["Master electrician (own business)", "Electrical contractor for commercial projects", "Solar installer / electrician hybrid"],
+    "miserable_in_job": "Sitting at a desk. Following orders from people who don't know what they're doing.",
+    "top_2_from_work": ["Make a lot of money", "Build something"],
+    "majors_considering": "N/A — but if community college, electrical technology certificate or associate's",
+    "industries": "Construction, electrical, renewable energy"
+  },
+
+  "real_talk": {
+    "schools_should_know": "I've already been working in the trade for 4 years between school and summer jobs. I have a contractor ready to hire me. I'm not figuring out my career — I know what I'm doing.",
+    "worry": "That people will look down on me for not going to college, especially in a town like Stamford. Also that my parents will be disappointed even though they say they support me.",
+    "success_in_4_years": "Journeyman electrician's license in hand, making real money, on track to my own business by my late 20s.",
+    "anything_else": "Don't try to talk me into a 4-year college. Help me find the best apprenticeship program, the right union to join, and any scholarships or stipends for trade school students. That's where I'm headed."
+  }
+}

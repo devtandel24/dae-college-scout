@@ -1,0 +1,110 @@
+{
+  "persona_name": "The Builder",
+  "first_name": "Jordan",
+  "last_name": "Patel",
+  "high_school": "Stamford High School",
+  "grade": 11,
+  "gpa": "3.6 unweighted, 4.1 weighted",
+  "test_scores": {
+    "SAT_total": 1380,
+    "SAT_math": 750,
+    "SAT_reading_writing": 630,
+    "PSAT": 1410,
+    "AP_scores": ["AP CS Principles: 5", "AP Calc AB: 4"]
+  },
+  "citizenship": "US citizen",
+  "state": "Connecticut",
+
+  "academics": {
+    "current_courses": ["AP Calculus BC", "AP Computer Science A", "AP Physics 1", "Honors English", "Spanish III", "Robotics (elective)"],
+    "subjects_i_like": ["Computer Science", "Math", "Physics"],
+    "subjects_i_dislike": ["English essays about feelings", "History memorization", "Spanish grammar"],
+    "rigor_self_rating": "Pretty intense — 3 APs and high-level math",
+    "above_and_beyond": "Won the school hackathon last year. Did an independent study on machine learning my sophomore year because the school didn't offer it. Got published in a student research journal for my project on detecting fake news with ML.",
+    "approach_to_school": "I'd rather be building something. School works when teachers let me apply concepts. It doesn't when it's just memorization."
+  },
+
+  "activities": {
+    "sports": {
+      "sport": "Cross-country (recreational, JV)",
+      "level": "JV",
+      "years_played": 2,
+      "leadership": null,
+      "hours_per_week": 8,
+      "achievements": null,
+      "play_in_college": "No",
+      "recruiting_contact": null
+    },
+    "performing_arts": null,
+    "visual_arts": null,
+    "things_built": [
+      "Built 3 iOS apps — one is a homework planner with 400 active users, one is a fake-news detector (my research project), one is a personal habit tracker for me. All on GitHub.",
+      "Co-founded a small AI tutoring side business with my friend — we charge $30/hour to tutor middle schoolers in math using AI-assisted study plans we generate. We've made about $2,800 since September.",
+      "Run a Discord server for high school coders — 320 members, weekly challenges I write.",
+      "Built a custom mechanical keyboard with hand-soldered switches (just for fun, but I'm proud of it)",
+      "Wrote a Python script my dad uses for his accounting work — saves him about 6 hours a week"
+    ],
+    "clubs_leadership": [
+      "Robotics Team (FRC) — Programming Lead, 3 years",
+      "Computer Science Club — President, founded the club my sophomore year",
+      "Math Team — member"
+    ],
+    "work": [
+      "AI tutoring side business (see above)",
+      "Summer internship at a local accounting firm doing data entry + Python automation (informal, through family connection)"
+    ],
+    "community_service": "Teach a free Saturday morning coding class at the Stamford Public Library for kids 8-12. Started it sophomore year, still running it."
+  },
+
+  "identity": {
+    "first_gen_college": "No — both parents have bachelor's degrees, my mom has an MBA",
+    "race_ethnicity": "South Asian / Indian American",
+    "lgbtq": "No",
+    "religious": "Hindu (culturally, not strictly practicing)",
+    "military_family": "No",
+    "geographic": "Suburban (Stamford, CT)",
+    "languages": ["English (primary)", "Gujarati (conversational)", "some Hindi"],
+    "disability": null,
+    "other_background": "Both parents are engineers. Lots of expectation to go into CS or engineering."
+  },
+
+  "financial_reality": {
+    "family_situation": "We can pay full price for state schools but need help for private schools. Looking for merit aid.",
+    "fafsa_eligible": "Yes, but probably not much need-based aid",
+    "comfortable_with_loans": "Moderate amount — under $30K total",
+    "working_during_college": "I'll probably do internships during summers and contract work during school",
+    "max_out_of_pocket_per_year": "$25,000"
+  },
+
+  "what_i_want": {
+    "dream_vibe": "Somewhere serious about CS but not just CS people. I don't want to be in a coding cave for 4 years.",
+    "city_vs_campus": "Either works, slight preference for college town with a real campus feel",
+    "distance_from_home": "Different region — I want to leave the East Coast bubble",
+    "size_preference": "Medium (2K-10K) — big enough for research opportunities, small enough for professors to know me",
+    "greek_life": "Open to it",
+    "sports_culture": "I want low-key",
+    "religious_affiliation": "Doesn't matter",
+    "diversity": "Somewhat — I want intellectual diversity more than demographic",
+    "weather": "Mild winter preferred but I can handle real winter",
+    "instant_no": "Cutthroat CS program where everyone's just trying to beat each other",
+    "instant_yes": "Strong CS program + active maker culture (hackathons, project showcases) + chance to do real research"
+  },
+
+  "pathway": "4-year college (traditional)",
+
+  "career_direction": {
+    "today_pick": "Software engineer, possibly with a side path into entrepreneurship or product management",
+    "interesting_careers": ["Software engineer at a startup", "ML researcher", "Founder of my own thing"],
+    "miserable_in_job": "Maintaining legacy code at a giant corporation. No autonomy. No interesting problems.",
+    "top_2_from_work": ["Build something", "Be creative"],
+    "majors_considering": ["Computer Science", "CS + AI specialization", "Computer Engineering", "CS minor + Business major (still deciding)"],
+    "industries": "Tech, AI, startups, possibly fintech"
+  },
+
+  "real_talk": {
+    "schools_should_know": "Look at my GitHub. The classroom is not where I prove myself. My apps have real users. My business has real revenue. The grades-only schools probably aren't right for me.",
+    "worry": "Going to a school that's all theory and no building. Also debt — my parents won't help much if I go private and don't get merit aid.",
+    "success_in_4_years": "Graduating from a school where I've shipped real projects, with internship experience at companies I respect, on track to start my own thing or join a startup as an early engineer.",
+    "anything_else": "Don't just give me MIT/Stanford/CMU. I know those are reaches. Show me schools with strong CS that I have a real shot at AND that fit how I actually work."
+  }
+}

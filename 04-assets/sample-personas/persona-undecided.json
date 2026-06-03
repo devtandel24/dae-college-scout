@@ -1,0 +1,110 @@
+{
+  "persona_name": "The Undecided",
+  "first_name": "Riley",
+  "last_name": "Thompson",
+  "high_school": "Westhill High School",
+  "grade": 10,
+  "gpa": "3.3 unweighted",
+  "test_scores": {
+    "SAT_total": null,
+    "PSAT": 1080,
+    "ACT": null,
+    "AP_scores": []
+  },
+  "citizenship": "US citizen",
+  "state": "Connecticut",
+
+  "academics": {
+    "current_courses": ["English 10", "Algebra II", "World History", "Biology", "Spanish II", "Studio Art"],
+    "subjects_i_like": ["Art", "History (sometimes)", "Bio"],
+    "subjects_i_dislike": ["Math", "Spanish — I just don't get it"],
+    "rigor_self_rating": "Standard — regular classes mostly, no APs yet but might take one next year",
+    "above_and_beyond": "Not really? I do my work but I'm not in any academic competitions.",
+    "approach_to_school": "I show up, I do the work, I get B's mostly. School is fine. It's not really my thing but it's not bad."
+  },
+
+  "activities": {
+    "sports": {
+      "sport": "Soccer",
+      "level": "JV",
+      "years_played": 2,
+      "leadership": null,
+      "hours_per_week": 10,
+      "achievements": null,
+      "play_in_college": "No, probably not — I like it but I'm not good enough",
+      "recruiting_contact": null
+    },
+    "performing_arts": null,
+    "visual_arts": {
+      "medium": "Painting (acrylic), some digital art on my iPad",
+      "portfolio_pieces": "I have a sketchbook full of stuff. Nothing official.",
+      "shows_publications": null,
+      "pursue_in_college": "Maybe? I don't know if I'm good enough."
+    },
+    "things_built": [
+      "I run a small TikTok account where I post art process videos. About 600 followers.",
+      "I helped my older sister with her wedding invitations — I designed them and they came out really good"
+    ],
+    "clubs_leadership": [
+      "Art Club — member, no leadership role",
+      "Environmental Club — I went to a few meetings"
+    ],
+    "work": [
+      "I babysit for my neighbors sometimes",
+      "Worked at a summer day camp last summer as a counselor"
+    ],
+    "community_service": "Some hours through National Honor Society stuff. Maybe 20 hours total."
+  },
+
+  "identity": {
+    "first_gen_college": "No — both my parents have college degrees",
+    "race_ethnicity": "White",
+    "lgbtq": "Prefer not to say",
+    "religious": "Not really religious",
+    "military_family": "No",
+    "geographic": "Suburban (Stamford, CT)",
+    "languages": ["English"],
+    "disability": "ADHD — I have a 504 plan. Mostly extra time on tests.",
+    "other_background": "Honestly nothing that stands out. I'm pretty average."
+  },
+
+  "financial_reality": {
+    "family_situation": "We can pay full price for state schools but need help for private. Don't really know much about the FAFSA stuff yet.",
+    "fafsa_eligible": "I think so?",
+    "comfortable_with_loans": "I really don't know",
+    "working_during_college": "Probably",
+    "max_out_of_pocket_per_year": "I don't actually know what my parents can pay — we haven't had that conversation"
+  },
+
+  "what_i_want": {
+    "dream_vibe": "Somewhere where I'd actually have friends and not be miserable. Not too big.",
+    "city_vs_campus": "Campus-feels-like-its-own-world, I think? But I don't really know.",
+    "distance_from_home": "Same state or road trip distance — I want to be able to come home",
+    "size_preference": "Medium (2K-10K) — small feels like high school again, big feels overwhelming",
+    "greek_life": "What's that?",
+    "sports_culture": "No opinion",
+    "religious_affiliation": "Doesn't matter",
+    "diversity": "Somewhat? I don't really know what I want",
+    "weather": "I don't care about weather",
+    "instant_no": "Somewhere where everyone is rich and I'd feel out of place",
+    "instant_yes": "Somewhere people seem chill and there's stuff to do"
+  },
+
+  "pathway": "I genuinely have no idea — help me figure it out",
+
+  "career_direction": {
+    "today_pick": "I really don't know. Maybe something with art? Or teaching? I like working with younger kids.",
+    "interesting_careers": ["Teacher (elementary maybe)", "Graphic designer (I think this is what I'd like but I don't really know what they do)", "Something working with animals — vet tech?"],
+    "miserable_in_job": "Sitting at a desk doing the same thing every day. Or working with mean people.",
+    "top_2_from_work": ["Work with people I like", "Have free time"],
+    "majors_considering": ["I don't know — maybe education? Art? Liberal arts and figure it out?"],
+    "industries": "I really don't know"
+  },
+
+  "real_talk": {
+    "schools_should_know": "I'm not someone with a clear story yet. I'm 16 and I'm trying to figure stuff out. I don't want to feel pressured to have it all together when I obviously don't.",
+    "worry": "Picking the wrong thing and wasting money. Or my parents being disappointed in me. Or going somewhere and having no friends.",
+    "success_in_4_years": "Honestly, finishing whatever I started and not hating my life. Maybe figuring out what I want to do.",
+    "anything_else": "I'm a sophomore — I have time. Help me think about what to look for in the next year, not just pick schools right now. Maybe community college? I'm open."
+  }
+}
