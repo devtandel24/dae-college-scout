@@ -1,6 +1,6 @@
-# SETUP — Build Your College Scout in 10 Steps
+# SETUP — Build Your College Scout in 11 Steps
 
-Total time: ~15 minutes to set up, ~5 minutes to run.
+Total time: ~15 minutes to set up, ~5 minutes to run, ~5 minutes to review and approve.
 
 ---
 
@@ -9,7 +9,7 @@ Total time: ~15 minutes to set up, ~5 minutes to run.
 - A laptop with a browser
 - A Google account (you definitely already have one)
 - The DAE-shared Claude account login your facilitator will give you
-- This downloaded repo (you should already have it unzipped — if not, scroll up and grab it)
+- This downloaded repo (unzipped on your computer)
 
 ---
 
@@ -17,7 +17,7 @@ Total time: ~15 minutes to set up, ~5 minutes to run.
 
 Go to **claude.ai** and log in with the account credentials your facilitator handed out.
 
-You'll share this account with 3-4 other students. That's fine — your work goes into your own project, which keeps it separate.
+You'll share this account with 3-4 other students. That's fine — each of you will work in your own project, which keeps your work separate.
 
 ---
 
@@ -29,11 +29,26 @@ In the left sidebar, find **"Projects"** and click the **+** to create a new one
 
 Example: `Marcus's College Scout`, `Maya's College Scout`
 
-This is your private workspace. Everything you build lives here.
+---
+
+## STEP 3 — *(OPTIONAL but recommended if you're 18+)* — Connect your Gmail and Drive
+
+This step lets your agent actually send emails from YOUR Gmail and save files to YOUR Drive.
+
+**If you're 18 or older:**
+
+1. In your Claude project, find the **Connectors** or **Integrations** section
+2. Click **Connect Gmail** → authorize with YOUR Google account (the one you'll be using throughout high school and into college)
+3. Click **Connect Google Drive** → authorize the same Google account
+4. Click **Connect Google Calendar** → same account
+
+Now your agent can send emails as you, save files to your Drive, and load deadlines into your calendar.
+
+**If you're under 18 or can't connect:** Skip this step. Your agent will save email drafts and reports to the chat instead — you'll copy them into your own Gmail/Drive later. Still works great.
 
 ---
 
-## STEP 3 — Open the profile template
+## STEP 4 — Open the profile template
 
 In the repo folder you downloaded, open:
 
@@ -45,23 +60,21 @@ Open it in any text editor (Notes app, Google Docs, Word, whatever).
 
 ---
 
-## STEP 4 — Fill out your profile
+## STEP 5 — Fill out your profile
 
 **This is the most important part.** Your agent is only as good as your profile.
 
-The profile has 9 sections. Fill them out **honestly**. The agent is private to you — be real.
-
 Tips:
-- **Skip what doesn't apply.** Not in sports? Skip Section 3a. Not in performing arts? Skip 3b.
+- **Skip what doesn't apply.** Not in sports? Skip Section 3a.
 - **Be specific.** "I like science" is weak. "I love biology and chemistry, hate physics" is gold.
-- **Section 3d (Things You've Built) is huge.** If you code, run a side hustle, make videos, do art — write it all down. This is what makes your agent's recommendations specific.
-- **No idea what you want to do? Say so.** "I have absolutely no idea" is a valid answer in Section 7 and 8. The agent will help you figure it out.
+- **Section 3d (Things You've Built) is huge.** Write down every project, side hustle, content channel — anything you've shipped that exists in the world.
+- **No idea what you want to do? Say so.** "I have absolutely no idea" is a valid answer in Section 7.
 
 **Take ~10 minutes on this.** Don't rush.
 
 ---
 
-## STEP 5 — Save your filled profile
+## STEP 6 — Save your filled profile
 
 Save your filled-out profile as a file. Any of these formats work:
 - `.md` (markdown)
@@ -69,23 +82,19 @@ Save your filled-out profile as a file. Any of these formats work:
 - `.pdf`
 - `.docx` (Word)
 
-Name it: `My_Profile.md` (or whatever extension)
+Name it: `My_Profile.md` (or similar)
 
 ---
 
-## STEP 6 — Upload your profile to Project Knowledge
+## STEP 7 — Upload your profile to Project Knowledge
 
-In your Claude project, find **"Project Knowledge"** (it's a section in the project sidebar).
+In your Claude project, find **"Project Knowledge"** and drag your profile file in.
 
-Click **+ Add Knowledge** or drag your `My_Profile.md` file into it.
-
-You should see your profile show up in the knowledge list.
-
-**This is the agent's memory of you. It will read this every time you ask it to do anything.**
+You should see it show up in the knowledge list.
 
 ---
 
-## STEP 7 — Upload the workflow file
+## STEP 8 — Upload the workflow file
 
 In the repo folder, find:
 
@@ -93,13 +102,11 @@ In the repo folder, find:
 02-workshop/workflow.md
 ```
 
-Upload this file to your Project Knowledge too. (Same way as Step 6.)
-
-**This is the agent's process — the step-by-step it follows when you ask it to scout.**
+Upload to Project Knowledge (same way as Step 7).
 
 ---
 
-## STEP 8 — Set the system prompt
+## STEP 9 — Set the system prompt
 
 In the repo folder, open:
 
@@ -109,7 +116,7 @@ In the repo folder, open:
 
 **Select all the text inside that file and copy it.**
 
-In your Claude project, find **"Custom Instructions"** (sometimes called "Project Instructions" or "Project Description"). 
+In your Claude project, find **"Custom Instructions"** (sometimes called "Project Instructions" or "Project Description").
 
 **Paste the system prompt in there.**
 
@@ -120,21 +127,15 @@ You are the College Scout, a personal AI agent built for [Student Name].
 
 **Replace `[Student Name]` with your actual first name.** Save.
 
-**This is the agent's personality, rules, and identity.**
+---
+
+## STEP 10 — Turn on Web Search
+
+In the Claude chat interface, find the **Web Search** toggle and turn it ON.
 
 ---
 
-## STEP 9 — Turn on Web Search
-
-In the Claude chat interface, look for the **Web Search** toggle (usually a button below or beside the message box).
-
-**Turn it ON.**
-
-Your agent needs to be able to search the web to find real schools and scholarships.
-
----
-
-## STEP 10 — Run your agent
+## STEP 11 — Run your agent
 
 In the chat, type exactly this:
 
@@ -144,45 +145,71 @@ Scout my schools
 
 Hit enter.
 
-**Watch your agent work.** You'll see it narrate what it's doing — searching, ranking, generating.
+**Watch your agent work.** It'll narrate what it's doing — searching, ranking, generating.
 
-In about 1-2 minutes, your Scout Report will appear as a Canvas/Artifact on the right side of the screen.
-
----
-
-## After the report drops
-
-The agent will ask you if you want it to:
-- Draft personalized emails to your top 5 schools
-- Create a Google Drive folder with everything organized
-- Add deadlines to your Google Calendar
-- Set follow-up reminders
-
-**Say yes** (or pick which ones).
-
-If your facilitator has connected Gmail / Drive / Calendar to the account, the agent will do these things live. If not, the agent will create everything as files in the chat that you can save.
+In about 2-3 minutes, your agent will:
+1. Send you a Google Drive link to your beautifully designed HTML Scout Report
+2. NOT dump the report in chat (the chat stays clean — the report lives in Drive)
+3. Give you a 2-line teaser about what surprised it
+4. Ask you to review the report and approve
 
 ---
 
-## Then — push your agent
+## STEP 12 — Review your report in Drive
 
-Try follow-up questions like:
-- `What about West Coast schools only?`
-- `Show me cheaper options`
-- `Find me 5 more scholarships specifically for [your specific thing]`
-- `What would my application look like for my #1 school?`
-- `Compare schools 1 and 3 — which is better for me?`
+**This is the human-in-the-loop moment.**
 
-Watch how it remembers everything and re-runs with full context.
+Click the Drive link. The HTML report opens in your browser. Read it.
 
-**That's what an agent is.** Memory. Tools. Process. Goal.
+- ✅ Does it feel like it actually understands you?
+- ✅ Are the schools real fits or generic suggestions?
+- ✅ Do the "Why this fits YOU" paragraphs reference YOUR profile specifically?
 
-You just built one.
+---
+
+## STEP 13 — Approve or refine
+
+**If the report is good:**
+
+Come back to Claude chat and type:
+```
+approved
+```
+
+The agent will then:
+- Send emails (if you connected Gmail in Step 3) OR save them as drafts in Drive
+- Create a College Tracker spreadsheet
+- Add all application & scholarship deadlines to your calendar
+- Set 2-week reminders before each deadline
+- Set follow-up check-ins for 2 weeks and 4 weeks from today
+
+**If the report needs work:**
+
+Tell the agent specifically what to fix. Examples:
+- `Add more West Coast options`
+- `Drop the schools over $30K`
+- `Find me 2 more HBCUs to consider`
+- `The wildcard pick doesn't fit me — try a different one`
+
+The agent will regenerate the HTML report in Drive (same folder, updated file) and ask you to approve the new version.
+
+---
+
+## STEP 14 — Push your agent
+
+After everything's set up, push it further. Try:
+- `What if I improved my SAT by 100 points — does that change anything?`
+- `Help me draft my application essay for school #1`
+- `Compare schools 2 and 4 — which is better for me?`
+- `What about a community college path that transfers to one of these schools?`
+
+Watch how it remembers everything and re-runs with full context. That's what an agent is.
 
 ---
 
 ## Stuck?
 
-- **Profile feels overwhelming?** Look at the sample personas in `../04-assets/sample-personas/` for inspiration. Don't copy them — use them as examples.
-- **Agent gave a weird response?** Tell it specifically what was wrong. "That recommendation didn't reference my profile — try again with the schools that actually match my Section 3d projects."
-- **Something broken?** Raise your hand. Your facilitator is in the room.
+- **Profile feels overwhelming?** Look at the sample personas in `../04-assets/sample-personas/` for inspiration.
+- **Agent gave a weird response?** Tell it exactly what was wrong. Be specific.
+- **HTML report didn't generate?** Make sure Web Search is on and you've uploaded both the profile AND the workflow.md file to Project Knowledge.
+- **Something else broken?** Raise your hand. Your facilitator is in the room.
